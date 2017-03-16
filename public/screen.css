@@ -6,3 +6,40 @@ body {
   margin: 0;
   font: 16px / 1 sans-serif;
 }
+
+header {
+  background-image: url("/images/nebula.jpg");
+  border: solid black;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
+.face {
+  margin-top: 70px;
+  max-height: 125px;
+  border:1px solid #;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+
+.speech {
+  margin-top: 25px;
+  margin-right: 10px;
+  background-color: lightgrey;
+  height: 50px;
+  width: 285px;
+  border-radius: 25px;
+  padding: 20px;
+}
+
+h1 {
+  margin-top: -5px;
+  font-size: 1.5em;
+}
+
+p {
+  font-size: 13px;
+}
