@@ -38,7 +38,8 @@ header {
 
 i {
   position: absolute;
-  margin-top: -30px;
+  margin-top: -25px;
+  margin-left: 20px;
   width: 0;
   height: 0;
   border-style: solid;
