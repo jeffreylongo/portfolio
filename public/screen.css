@@ -5,6 +5,8 @@ html {
 body {
   margin: 0;
   font: 16px / 1 sans-serif;
+  background-color: black;
+
 }
 
 header {
@@ -39,7 +41,7 @@ header {
 i {
   position: absolute;
   margin-top: -25px;
-  margin-left: 20px;
+  margin-left: 50px;
   width: 0;
   height: 0;
   border-style: solid;
@@ -53,6 +55,10 @@ i {
 h1 {
   margin-top: -5px;
   font-size: 1.5em;
+}
+
+h2 {
+  color: white; 
 }
 
 p {
