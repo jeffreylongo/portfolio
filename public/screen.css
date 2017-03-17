@@ -13,7 +13,7 @@ header {
   background-image: url("/images/nebula.jpg");
   border: solid black;
   font-family: 'Roboto', sans-serif;
-  height: 300px;
+  height: 400px;
   display: flex;
   justify-content: center;
   flex-direction: row-reverse;
@@ -59,6 +59,18 @@ h1 {
   margin-top: -3px;
   font-size: 1.5em;
   font-weight: bold;
+}
+
+.project {
+  margin-top: 150px;
+  margin-left: 170px;
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
+}
+
+img {
+  padding: 10px;
 }
 
 h2 {
