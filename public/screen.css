@@ -88,7 +88,7 @@ img {
 }
 
 h2 {
-  color: white; 
+  color: black; 
 }
 
 p {
@@ -96,10 +96,11 @@ p {
 }
 
 .container1 {
-
-  width: 100%;
+  margin-left: 25px;
+  position: absolute;
+  width: 95%;
   height: 220px;
-  background-color: palegoldenrod;
+  background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
