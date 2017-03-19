@@ -215,9 +215,6 @@ p {
   color: grey;
 }
 
-.keepreading {
-  width: 90%;
-}
 
 .keepreading2 {
   position: relative;
@@ -365,3 +362,9 @@ h6 {
       font-size: 75%;
     }
   }
+
+@media (max-width: 375px) {
+  .keepreading {
+    background-color: green;
+  }
+}
