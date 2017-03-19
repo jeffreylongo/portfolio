@@ -62,7 +62,7 @@ h1 {
 
 .opaque {
   position: absolute;
-  width: 100%;
+  width: 95%;
   height: 160px;
   background-color: black;
   /*opacity: .8;*/
@@ -70,14 +70,19 @@ h1 {
   display: flex;
   justify-content: center;
   z-index: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .project {
-  position: absolute;
+  position: relative;
   margin-top: 0px;
   width: 100%;
   height: 160px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   z-index: 10;
 }
@@ -148,7 +153,7 @@ p {
 }
 
 .keepreading {
-  margin-top: 0px;
+  margin-top: 30px;
   margin-left: 90%;
   height: 30px;
   width: 110px;
@@ -220,7 +225,7 @@ p {
 
 
 .keepreading2 {
-  margin-top: 30px;
+  margin-top: 45px;
   margin-left: 87.75%;
   height: 30px;
   width: 110px;
@@ -286,6 +291,12 @@ h6 {
 }
 
 @media (max-width: 769px) {
+  .opaque {
+    height: 323px;
+  }
+  header {
+    height: 565px;
+  }
   .keepreading {
     margin-top: 10px;
   }
