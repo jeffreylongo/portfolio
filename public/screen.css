@@ -222,7 +222,6 @@ p {
 .keepreading2 {
   position: relative;
   margin-top: 40px;
-  /*margin-left: 720px;*/
   margin-left: 90%;
   height: 30px;
   width: 110px;
@@ -232,6 +231,7 @@ p {
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+
 }
 
 .keepreading2 h4 {
@@ -247,7 +247,9 @@ p {
 
 .connect {
   margin-top: 100px;
-  margin-left: 40%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .connect h1 {
