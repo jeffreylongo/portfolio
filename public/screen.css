@@ -290,6 +290,15 @@ h6 {
   }
 }
 
+@media (max-width: 936px) {
+  .opaque {
+    height: 318px;
+  }
+  header {
+    height: 550px;
+  }
+}
+
 @media (max-width: 769px) {
   .opaque {
     height: 323px;
@@ -306,6 +315,12 @@ h6 {
 }
 
 @media (max-width: 414px) {
+  h1 {
+    font-size: 90%;
+  }
+  p {
+    font-size: 60%;
+  }
   .project {
     display: flex;
     flex-flow: wrap;
@@ -336,7 +351,7 @@ h6 {
     margin-left: 50%;
   }
   .keepreading2 {
-    margin-top: 25px;
+    margin-top: 30px;
     margin-left: 45%;
   }
 }
