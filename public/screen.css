@@ -254,6 +254,27 @@ p {
   color: white;
 }
 
+.connectlogos {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.connectlogos img {
+  height: 75px;
+}
+
+.copyright {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+h6 {
+  color: darkgrey;
+}
+
 @media (max-width: 873px) {
   .keepreading {
     margin-top: 2px;
