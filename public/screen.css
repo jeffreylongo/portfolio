@@ -123,33 +123,35 @@ p {
 .reacttext {
   position: relative;
   width: 90%;
-  margin-left: 30px;
-  margin-top: 20px;
+  margin-left: 20px;
+  margin-top: 50px;
 }
 
 .reacttext h2 {
   position: absolute;
   font-size: 22px;
-  margin-top: 12px
+  margin-top: -20px;
+  margin-left: 20px;
 }
 
 .reacttext h3 {
   font-size: 12px;
-  margin-top: 20px;
+  margin-top: -10px;
   margin-left: 150px;
   color: darkgrey;
 }
 
 .reacttext h4 {
+  margin-left: 20px;
   font-size: 14px;
   color: grey;
 }
 
 .keepreading {
-  margin-top: 32px;
+  margin-top: 0px;
   margin-left: 90%;
   height: 30px;
-  max-width: 110px;
+  width: 110px;
   background-color: dodgerblue;
   background: linear-gradient(dodgerblue, black);
   border-top-left-radius: 10px;
@@ -166,7 +168,7 @@ p {
   margin-top: 5px;
   margin-left: 15px;
   color: white;
-  text-shadow: 1px 1px 1px #000
+  text-shadow: 1px 1px 1px #000;
 }
 
 .container2 {
@@ -174,7 +176,7 @@ p {
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  margin-top: 260px;
+  margin-top: 270px;
   margin-left: 25px;
   width: 95%;
   height: 220px;
@@ -193,33 +195,33 @@ p {
 .fizzbuzz {
   position: relative;
   width: 90%;
-  margin-left: 30px;
+  margin-left: 40px;
   margin-top: 30px;
 }
 
 .fizzbuzz h2 {
   position: absolute;
   font-size: 22px;
-  margin-top: -5px
+  margin-top: -010px
 }
 
 .fizzbuzz h3 {
   font-size: 12px;
-  margin-top: 20px;
-  margin-left: 120px;
+  margin-top: 10px;
+  margin-left: 105px;
   color: darkgrey;
 }
 
 .fizzbuzz h4 {
+  margin-top: 10px;
   font-size: 14px;
   color: grey;
 }
 
 
 .keepreading2 {
-  position: relative;
-  margin-top: 40px;
-  margin-left: 90%;
+  margin-top: 30px;
+  margin-left: 87.75%;
   height: 30px;
   width: 110px;
   background-color: dodgerblue;
@@ -231,6 +233,7 @@ p {
 }
 
 .keepreading2 h4 {
+  
   margin-top: 5px;
   margin-left: 15px;
   color: white;
@@ -238,7 +241,7 @@ p {
   position: absolute;
   white-space: nowrap;
   max-width: 100%;
-  text-shadow: 1px 1px 1px #000
+  text-shadow: 1px 1px 1px #000;
 }
 
 .connect {
@@ -273,6 +276,87 @@ h6 {
   color: darkgrey;
 }
 
+@media (max-width: 1025px) {
+  .keepreading {
+    margin-top: 30px;
+  }
+  .keepreading2 {
+    margin-top: 45px;
+  }
+}
+
+@media (max-width: 769px) {
+  .keepreading {
+    margin-top: 10px;
+  }
+  .keepreading2 {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 414px) {
+  .project {
+    display: flex;
+    flex-flow: wrap;
+  }
+  .project img {
+    height: 100px;
+  }
+  header {
+    height: 480px;
+  }
+  .opaque {
+    height: 240px;
+  }
+  .container1 {
+    width: 90%;
+  }
+  .container2 {
+    width: 90%
+  }
+  .reacttext h4{
+    font-size: 70%;
+  }
+  .fizzbuzz h4 {
+    font-size: 70%;
+  }
+  .keepreading {
+    margin-top: 0px;
+    margin-left: 50%;
+  }
+  .keepreading2 {
+    margin-top: 25px;
+    margin-left: 45%;
+  }
+}
+
+@media (max-width: 376px) {
+  h1 {
+    font-size: 100%;
+  }
+  p {
+    font-size: 65%;
+  }
+  .keepreading {
+    margin-top: -0px;
+  }
+  .keepreading2 {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 321px) {
+  header {
+    height: 725px;
+  }
+  .opaque {
+    height: 485px;
+  }
+  .keepreading {
+    margin-top: -10px;
+  }
+}
+/*
 @media (max-width: 873px) {
   .keepreading {
     margin-top: 2px;
@@ -368,3 +452,4 @@ h6 {
     background-color: green;
   }
 }
+*/
