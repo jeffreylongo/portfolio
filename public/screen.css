@@ -231,7 +231,6 @@ p {
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-
 }
 
 .keepreading2 h4 {
@@ -305,9 +304,11 @@ h6 {
     flex-wrap: wrap;
   }
   .keepreading {
+    margin-top: 15px;
     margin-left: 80%;
   }
   .keepreading2 {
+    margin-top: 22px;
     margin-left: 80%;
   }
 }
@@ -332,14 +333,7 @@ h6 {
   }
 }
 
-@media (max-width: 440px) {
-  header {
-    height: 720px;
-  }
-  .opaque {
-    height: 480px;
-  }
-@media (max-width: 438px) {
+  @media (max-width: 414px) {
     header {
       height: 885px;
     }
@@ -348,5 +342,26 @@ h6 {
     }
     p {
       font-size: .6em;
+    }
+    .keepreading {
+      padding-top: 0px;
+      margin-top: 5px;
+      margin-left: 50%;
+    }
+    .keepreading2 {
+      margin-top: 0px;
+      margin-left: 50%;
+    }
+    .container1 {
+      margin-top: 30px;
+    }
+    .container2 {
+      margin-top: 300px;
+    }
+    .reacttext h4 {
+      font-size: 75%;
+    }
+    .fizzbuzz h4 {
+      font-size: 75%;
     }
   }
